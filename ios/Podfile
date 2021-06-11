@@ -1,0 +1,51 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+project 'cyrklMobile',
+        'Dev.Debug' => :debug,
+        'Dev.Release' => :release,
+        'Staging.Debug' => :debug,
+        'Staging.Release' => :release,
+        'Debug' => :debug,
+        'Release' => :release
+
+        def sharedPods
+          pod 'Firebase/Analytics'
+          pod 'GoogleTagManager'
+        end
+
+
+abstract_target 'commonPods' do
+  config = use_native_modules!
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    :hermes_enabled => true
+  )
+
+  target 'cyrklMobile' do
+    sharedPods
+  end
+
+  target 'cyrklMobileStaging' do
+    sharedPods
+  end
+
+  target 'cyrklMobileDevelop' do
+    sharedPods
+  end
+
+  use_flipper!('Flipper' => '0.75.1', 'Flipper-Folly' => '2.5.3', 'Flipper-RSocket' => '1.3.1', configurations: ['Debug', 'Dev.Debug', 'Staging.Debug'])
+
+  post_install do |installer|
+    react_native_post_install(installer)
+
+    # installer.pods_project.targets.each do |target|
+    #   if target.name == "React-Core.common-AccessibilityResources"
+    #     target.remove_from_project
+    #   end
+    # end
+  end
+end

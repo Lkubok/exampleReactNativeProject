@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardMessage component should match snapshot when 1 line 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "backgroundColor": "[7m[38;2;255;255;255m#ffffff[39m[27m",
+          "borderRadius": 6,
+          "elevation": 3,
+          "flexDirection": "column",
+          "marginTop": 16,
+          "opacity": 1,
+          "paddingHorizontal": 16,
+          "paddingVertical": 16,
+          "shadowColor": "[7m[38;2;0;0;0m#000000[39m[27m",
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 2,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexDirection": "row",
+                "marginBottom": 4,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "baseline",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                }
+              }
+            >
+              <View>
+                <Text
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontFamily": "SFCompactText-Semibold",
+                      "fontSize": 18,
+                      "letterSpacing": -0.36,
+                    }
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "[7m[38;2;138;138;142m#8a8a8e[39m[27m",
+                    "fontFamily": "SFCompactText-Medium",
+                    "fontSize": 16,
+                    "letterSpacing": -0.32,
+                  }
+                }
+              >
+                Invalid Date
+              </Text>
+            </View>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "[7m[38;2;73;158;85m#499e55[39m[27m",
+                  "fontFamily": "SFCompactText-Medium",
+                  "fontSize": 16,
+                  "letterSpacing": -0.32,
+                }
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingTop": 12,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 17,
+              "letterSpacing": -0.34,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </RNGestureHandlerButton>
+</RNCSafeAreaProvider>
+`;

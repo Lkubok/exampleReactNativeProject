@@ -1,0 +1,11 @@
+export const white = '#fff';
+export const black = '#000';
+export const transparent = 'transparent';
+export const lightBlue = '#7AC1FF';
+export const blue = '#1F5A8F';
+export const accentRed = '#ea3336';
+export const accentGreen = '#499e55';
+export const destructiveRed = '#c21114';
+export const inputBorder = '#c4c4c6';
+export const pinkishGrey = '#c6c6c6';
+export const steel = '#8a8a8e';

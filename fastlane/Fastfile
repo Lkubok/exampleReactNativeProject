@@ -1,0 +1,8 @@
+fastlane_version "2.175.0"
+
+desc "Upload source maps"
+lane :bugsnag do
+    download_dsyms()
+    upload_symbols_to_bugsnag
+    clean_build_artifacts
+end

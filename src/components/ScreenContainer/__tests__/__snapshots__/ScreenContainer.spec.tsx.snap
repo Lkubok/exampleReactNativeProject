@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScreenContainer component should match snapshot when 1 line 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "[7m[38;2;255;255;255m#ffffff[39m[27m",
+        "height": 1334,
+        "paddingBottom": 0,
+        "paddingHorizontal": 32,
+      }
+    }
+  />
+</RNCSafeAreaProvider>
+`;

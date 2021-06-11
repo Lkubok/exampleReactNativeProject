@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationComponent component should match snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    hitSlop={
+      Object {
+        "bottom": 12,
+        "left": 12,
+        "right": 12,
+        "top": 12,
+      }
+    }
+    onClick={[Function]}
+    style={
+      Object {
+        "flexDirection": "row",
+        "height": 100,
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+          "marginHorizontal": 12,
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../src/assets/notificationIcon.png",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 30,
+            "height": 40,
+            "width": 40,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+            "fontFamily": "SFCompactText-Bold",
+            "fontSize": 18,
+            "marginBottom": 12,
+          }
+        }
+      >
+        testingNotificationComponent
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+            "fontFamily": "SFCompactText-Regular",
+            "fontSize": 17,
+          }
+        }
+      />
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

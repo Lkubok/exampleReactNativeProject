@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingStars component should match snapshot when 1 line 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "height": 30,
+        "marginBottom": 24,
+        "marginTop": 8,
+      }
+    }
+  />
+</RNCSafeAreaProvider>
+`;

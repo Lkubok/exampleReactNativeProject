@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should match snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderRadius": 30,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "busy": false,
+          "disabled": true,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "[7m[38;2;198;198;198m#c6c6c6[39m[27m",
+            "borderColor": "[7m[38;2;198;198;198m#c6c6c6[39m[27m",
+            "borderRadius": 30,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "center",
+            "padding": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "[7m[38;2;255;255;255m#ffffff[39m[27m",
+              "fontFamily": "SFCompactText-Semibold",
+              "fontSize": 18,
+              "letterSpacing": 0.29,
+              "paddingBottom": 1,
+              "paddingTop": 2,
+              "textAlign": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "[7m[38;2;255;255;255m#ffffff[39m[27m",
+                "fontFamily": "SFCompactText-Semibold",
+                "fontSize": 18,
+                "letterSpacing": 0.29,
+              }
+            }
+          >
+            testingButton
+          </Text>
+        </Text>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

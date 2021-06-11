@@ -1,0 +1,483 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterCity screen should match snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={null}
+      >
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgb(255, 255, 255)",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "flex": 1,
+                "shadowColor": "rgb(216, 216, 216)",
+                "shadowOffset": Object {
+                  "height": 0.5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.85,
+                "shadowRadius": 0,
+              }
+            }
+          />
+        </View>
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "height": 44,
+              "maxHeight": undefined,
+              "minHeight": undefined,
+              "opacity": undefined,
+              "transform": undefined,
+            }
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+              }
+            }
+          />
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              pointerEvents="box-none"
+              style={
+                Object {
+                  "marginHorizontal": 16,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessibilityRole="header"
+                aria-level="1"
+                numberOfLines={1}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                MockedScreen
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <RNSScreenContainer
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        activityState={2}
+        forwardedRef={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        />
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onGestureEnd={[Function]}
+          onOpen={[Function]}
+          onTransition={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "overflow": undefined,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            needsOffscreenAlphaCompositing={false}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "shadowColor": "[7m[38;2;0;0;0m#000[39m[27m",
+                    "shadowOffset": Object {
+                      "height": 1,
+                      "width": -1,
+                    },
+                    "shadowOpacity": 0.3,
+                    "shadowRadius": 5,
+                    "top": 0,
+                    "width": 3,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                    "flex": 1,
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "column-reverse",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "[7m[38;2;248;248;248m#f8f8f8[39m[27m",
+                          "borderBottomColor": "[7m[38;2;196;196;198m#c4c4c6[39m[27m",
+                          "borderBottomWidth": 0.5,
+                          "borderTopEndRadius": 12,
+                          "borderTopStartRadius": 12,
+                          "flexDirection": "row",
+                          "minHeight": 54,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "flex-start",
+                            "flexGrow": 1,
+                            "justifyContent": "center",
+                            "paddingLeft": 16,
+                            "zIndex": 1,
+                          }
+                        }
+                      >
+                        <View
+                          accessible={true}
+                          focusable={true}
+                          hitSlop={
+                            Object {
+                              "bottom": 24,
+                              "left": 24,
+                              "right": 24,
+                              "top": 24,
+                            }
+                          }
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "opacity": 1,
+                            }
+                          }
+                        >
+                          <SvgMock
+                            fill="#ea3336"
+                            height={24}
+                            width={24}
+                          />
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexGrow": 1,
+                            "justifyContent": "center",
+                            "left": 0,
+                            "minHeight": 54,
+                            "position": "absolute",
+                            "right": 0,
+                            "width": "100%",
+                            "zIndex": 0,
+                          }
+                        }
+                      >
+                        <View>
+                          <Text
+                            style={
+                              Object {
+                                "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+                                "fontFamily": "SFCompactText-Semibold",
+                                "fontSize": 17,
+                                "letterSpacing": -0.41,
+                              }
+                            }
+                          >
+                            Select city
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "flexGrow": 1,
+                            "justifyContent": "flex-end",
+                            "paddingRight": 16,
+                            "zIndex": 1,
+                          }
+                        }
+                      />
+                    </View>
+                    <RCTScrollView
+                      style={
+                        Object {
+                          "backgroundColor": "[7m[38;2;255;255;255m#ffffff[39m[27m",
+                          "paddingHorizontal": 12,
+                          "paddingTop": 12,
+                        }
+                      }
+                    >
+                      <View>
+                        <View
+                          style={
+                            Object {
+                              "borderColor": "[7m[38;2;234;51;54m#ea3336[39m[27m",
+                              "borderRadius": 32,
+                              "borderWidth": 2,
+                              "marginBottom": 24,
+                              "paddingBottom": 0,
+                              "paddingHorizontal": 10,
+                              "paddingLeft": 24,
+                              "paddingRight": 24,
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "borderBottomWidth": 1,
+                                "borderColor": "transparent",
+                                "flexDirection": "row",
+                                "paddingBottom": 0,
+                                "transform": Array [
+                                  Object {
+                                    "translateX": 0,
+                                  },
+                                ],
+                              }
+                            }
+                          >
+                            <TextInput
+                              allowFontScaling={true}
+                              autoCapitalize="none"
+                              editable={true}
+                              keyboardType="default"
+                              onBlur={[Function]}
+                              onChangeText={[Function]}
+                              onFocus={[Function]}
+                              placeholder="Enter city name"
+                              placeholderTextColor="#86939e"
+                              rejectResponderTermination={true}
+                              style={
+                                Object {
+                                  "alignSelf": "center",
+                                  "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+                                  "flex": 1,
+                                  "fontSize": 17,
+                                  "minHeight": 40,
+                                }
+                              }
+                              testID="RNE__Input__text-input"
+                              underlineColorAndroid="transparent"
+                            />
+                            <View
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "height": 24,
+                                  "justifyContent": "center",
+                                  "marginVertical": 4,
+                                  "paddingRight": 4,
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <SvgMock
+                                fill="#000000"
+                              />
+                            </View>
+                          </View>
+                          <Text
+                            style={
+                              Object {
+                                "color": "[7m[38;2;194;17;20m#c21114[39m[27m",
+                                "fontFamily": "SFCompactText-Medium",
+                                "fontSize": 16,
+                                "height": 0,
+                                "margin": 0,
+                                "marginLeft": 0,
+                                "padding": 0,
+                              }
+                            }
+                          />
+                        </View>
+                        <View
+                          style={
+                            Object {
+                              "marginBottom": 32,
+                              "marginTop": 4,
+                            }
+                          }
+                        />
+                      </View>
+                    </RCTScrollView>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RNSScreen>
+    </RNSScreenContainer>
+  </View>
+</RNCSafeAreaProvider>
+`;

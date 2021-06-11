@@ -1,0 +1,1141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyDetail screen should match snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={null}
+      >
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgb(255, 255, 255)",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "flex": 1,
+                "shadowColor": "rgb(216, 216, 216)",
+                "shadowOffset": Object {
+                  "height": 0.5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.85,
+                "shadowRadius": 0,
+              }
+            }
+          />
+        </View>
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "height": 44,
+              "maxHeight": undefined,
+              "minHeight": undefined,
+              "opacity": undefined,
+              "transform": undefined,
+            }
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 0,
+              }
+            }
+          />
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              pointerEvents="box-none"
+              style={
+                Object {
+                  "marginHorizontal": 16,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessibilityRole="header"
+                aria-level="1"
+                numberOfLines={1}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                MockedScreen
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <RNSScreenContainer
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        activityState={2}
+        forwardedRef={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        />
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onGestureEnd={[Function]}
+          onOpen={[Function]}
+          onTransition={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "overflow": undefined,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            needsOffscreenAlphaCompositing={false}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "shadowColor": "[7m[38;2;0;0;0m#000[39m[27m",
+                    "shadowOffset": Object {
+                      "height": 1,
+                      "width": -1,
+                    },
+                    "shadowOpacity": 0.3,
+                    "shadowRadius": 5,
+                    "top": 0,
+                    "width": 3,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                    "flex": 1,
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "column-reverse",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "[7m[38;2;245;245;245m#f5f5f5[39m[27m",
+                          "height": 1334,
+                          "paddingBottom": 80,
+                          "paddingHorizontal": 0,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "backgroundColor": "[7m[38;2;249;249;249m#f9f9f9[39m[27m",
+                            "paddingTop": 20,
+                            "width": 750,
+                            "zIndex": 10,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "borderBottomColor": "[7m[38;2;196;196;198m#c4c4c6[39m[27m",
+                              "borderBottomWidth": 0.5,
+                              "flexDirection": "row",
+                              "minHeight": 54,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "flex-start",
+                                "flexGrow": 1,
+                                "justifyContent": "center",
+                                "paddingLeft": 16,
+                                "zIndex": 1,
+                              }
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              hitSlop={
+                                Object {
+                                  "bottom": 24,
+                                  "left": 24,
+                                  "right": 24,
+                                  "top": 24,
+                                }
+                              }
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <SvgMock
+                                fill="#ea3336"
+                                height={24}
+                                width={24}
+                              />
+                            </View>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "flexGrow": 1,
+                                "justifyContent": "center",
+                                "left": 0,
+                                "minHeight": 54,
+                                "position": "absolute",
+                                "right": 0,
+                                "width": "100%",
+                                "zIndex": 0,
+                              }
+                            }
+                          >
+                            <View>
+                              <Text
+                                style={
+                                  Object {
+                                    "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+                                    "fontFamily": "SFCompactText-Semibold",
+                                    "fontSize": 17,
+                                    "letterSpacing": -0.41,
+                                  }
+                                }
+                              >
+                                Company detail
+                              </Text>
+                            </View>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "flexGrow": 1,
+                                "justifyContent": "flex-end",
+                                "paddingRight": 16,
+                                "zIndex": 1,
+                              }
+                            }
+                          />
+                        </View>
+                      </View>
+                      <View
+                        style={Object {}}
+                      />
+                      <RCTScrollView
+                        collapsable={false}
+                        contentContainerStyle={
+                          Object {
+                            "paddingBottom": 100,
+                          }
+                        }
+                        onGestureHandlerEvent={[Function]}
+                        onGestureHandlerStateChange={[Function]}
+                        showsVerticalScrollIndicator={false}
+                      >
+                        <View>
+                          <View
+                            style={
+                              Object {
+                                "paddingHorizontal": 16,
+                                "paddingTop": 16,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "flexDirection": "row",
+                                  "marginTop": 16,
+                                }
+                              }
+                            >
+                              <View>
+                                <View
+                                  style={
+                                    Object {
+                                      "display": "flex",
+                                      "marginBottom": 4,
+                                    }
+                                  }
+                                >
+                                  <View>
+                                    <Text
+                                      style={
+                                        Object {
+                                          "color": "[7m[38;2;234;51;54m#ea3336[39m[27m",
+                                          "fontFamily": "SFCompactText-Semibold",
+                                          "fontSize": 20,
+                                        }
+                                      }
+                                    />
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                            <View
+                              style={
+                                Object {
+                                  "display": "flex",
+                                  "marginVertical": 16,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "backgroundColor": "[7m[38;2;196;196;198m#c4c4c6[39m[27m",
+                                    "height": 1,
+                                    "lineHeight": 1,
+                                  }
+                                }
+                              />
+                            </View>
+                            <View
+                              style={
+                                Object {
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                }
+                              }
+                            >
+                              <View>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontFamily": "SFCompactText-Semibold",
+                                      "fontSize": 18,
+                                      "letterSpacing": -0.36,
+                                    }
+                                  }
+                                >
+                                  Total rating
+                                </Text>
+                              </View>
+                              <RNGestureHandlerButton
+                                collapsable={false}
+                                hitSlop={
+                                  Object {
+                                    "bottom": 12,
+                                    "left": 12,
+                                    "right": 12,
+                                    "top": 12,
+                                  }
+                                }
+                                onGestureEvent={[Function]}
+                                onGestureHandlerEvent={[Function]}
+                                onGestureHandlerStateChange={[Function]}
+                                onHandlerStateChange={[Function]}
+                                rippleColor={0}
+                              >
+                                <View
+                                  accessible={true}
+                                  hitSlop={
+                                    Object {
+                                      "bottom": 12,
+                                      "left": 12,
+                                      "right": 12,
+                                      "top": 12,
+                                    }
+                                  }
+                                  style={
+                                    Object {
+                                      "opacity": 1,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Object {
+                                        "color": "[7m[38;2;234;51;54m#ea3336[39m[27m",
+                                        "fontFamily": "SFCompactText-Regular",
+                                        "fontSize": 18,
+                                        "letterSpacing": -0.36,
+                                      }
+                                    }
+                                  >
+                                    Reviews
+                                  </Text>
+                                </View>
+                              </RNGestureHandlerButton>
+                            </View>
+                            <View
+                              style={
+                                Object {
+                                  "flexDirection": "row",
+                                  "height": 30,
+                                  "marginBottom": 24,
+                                  "marginTop": 8,
+                                }
+                              }
+                            >
+                              <SvgMock
+                                style={
+                                  Object {
+                                    "height": 30,
+                                    "marginRight": 4,
+                                    "width": 30,
+                                  }
+                                }
+                              />
+                              <SvgMock
+                                style={
+                                  Object {
+                                    "height": 30,
+                                    "marginRight": 4,
+                                    "width": 30,
+                                  }
+                                }
+                              />
+                              <SvgMock
+                                style={
+                                  Object {
+                                    "height": 30,
+                                    "marginRight": 4,
+                                    "width": 30,
+                                  }
+                                }
+                              />
+                              <SvgMock
+                                style={
+                                  Object {
+                                    "height": 30,
+                                    "marginRight": 4,
+                                    "width": 30,
+                                  }
+                                }
+                              />
+                              <SvgMock
+                                style={
+                                  Object {
+                                    "height": 30,
+                                    "marginRight": 4,
+                                    "width": 30,
+                                  }
+                                }
+                              />
+                            </View>
+                            <View
+                              style={
+                                Object {
+                                  "display": "none",
+                                  "marginBottom": 12,
+                                }
+                              }
+                            >
+                              <View>
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "black",
+                                      "fontFamily": "SFCompactText-Semibold",
+                                      "fontSize": 18,
+                                      "letterSpacing": -0.36,
+                                    }
+                                  }
+                                >
+                                  Description
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              style={
+                                Object {
+                                  "display": "none",
+                                  "marginBottom": 24,
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  Object {
+                                    "fontSize": 17,
+                                    "letterSpacing": -0.34,
+                                  }
+                                }
+                              />
+                            </View>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "display": "flex",
+                                "marginBottom": 24,
+                                "marginHorizontal": 16,
+                                "marginTop": 12,
+                              }
+                            }
+                          >
+                            <View>
+                              <Text
+                                style={
+                                  Object {
+                                    "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+                                    "fontFamily": "SFCompactText-Bold",
+                                    "fontSize": 26,
+                                    "letterSpacing": 0.31,
+                                  }
+                                }
+                              >
+                                Active offers
+                              </Text>
+                            </View>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "flex": 1,
+                                "justifyContent": "center",
+                              }
+                            }
+                          >
+                            <View
+                              animating={true}
+                              animationDuration={4000}
+                              animationEasing={[Function]}
+                              color="#ea3336"
+                              hideAnimationDuration={200}
+                              interaction={true}
+                              renderComponent={[Function]}
+                              style={
+                                Object {
+                                  "height": 32,
+                                  "opacity": 1,
+                                  "width": 32,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "bottom": 0,
+                                    "justifyContent": "center",
+                                    "left": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "height": 32,
+                                      "transform": Array [
+                                        Object {
+                                          "rotate": "82.5deg",
+                                        },
+                                        Object {
+                                          "rotate": "0deg",
+                                        },
+                                      ],
+                                      "width": 32,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    collapsable={false}
+                                    style={
+                                      Object {
+                                        "height": 16,
+                                        "overflow": "hidden",
+                                        "width": 32,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "height": 32,
+                                          "transform": Array [
+                                            Object {
+                                              "translateY": 0,
+                                            },
+                                            Object {
+                                              "rotate": "-172.5deg",
+                                            },
+                                          ],
+                                          "width": 32,
+                                        }
+                                      }
+                                    >
+                                      <View
+                                        collapsable={false}
+                                        style={
+                                          Object {
+                                            "height": 16,
+                                            "overflow": "hidden",
+                                            "width": 32,
+                                          }
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Object {
+                                              "borderColor": "[7m[38;2;234;51;54m#ea3336[39m[27m",
+                                              "borderRadius": 16,
+                                              "borderWidth": 3.2,
+                                              "height": 32,
+                                              "width": 32,
+                                            }
+                                          }
+                                        />
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "bottom": 0,
+                                    "justifyContent": "center",
+                                    "left": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "height": 32,
+                                      "transform": Array [
+                                        Object {
+                                          "rotate": "82.5deg",
+                                        },
+                                        Object {
+                                          "rotate": "0deg",
+                                        },
+                                      ],
+                                      "width": 32,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    collapsable={false}
+                                    style={
+                                      Object {
+                                        "height": 16,
+                                        "overflow": "hidden",
+                                        "top": 16,
+                                        "width": 32,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "height": 32,
+                                          "transform": Array [
+                                            Object {
+                                              "translateY": -16,
+                                            },
+                                            Object {
+                                              "rotate": "352.5deg",
+                                            },
+                                          ],
+                                          "width": 32,
+                                        }
+                                      }
+                                    >
+                                      <View
+                                        collapsable={false}
+                                        style={
+                                          Object {
+                                            "height": 16,
+                                            "overflow": "hidden",
+                                            "width": 32,
+                                          }
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Object {
+                                              "borderColor": "[7m[38;2;234;51;54m#ea3336[39m[27m",
+                                              "borderRadius": 16,
+                                              "borderWidth": 3.2,
+                                              "height": 32,
+                                              "width": 32,
+                                            }
+                                          }
+                                        />
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </RCTScrollView>
+                    </View>
+                    <Modal
+                      animationType="none"
+                      deviceHeight={null}
+                      deviceWidth={null}
+                      hardwareAccelerated={false}
+                      hideModalContentWhileAnimating={false}
+                      onBackdropPress={[Function]}
+                      onModalHide={[Function]}
+                      onModalWillHide={[Function]}
+                      onModalWillShow={[Function]}
+                      onRequestClose={[Function]}
+                      onSwipeComplete={[Function]}
+                      panResponderThreshold={4}
+                      scrollHorizontal={false}
+                      scrollOffset={0}
+                      scrollOffsetMax={0}
+                      scrollTo={null}
+                      supportedOrientations={
+                        Array [
+                          "portrait",
+                          "landscape",
+                        ]
+                      }
+                      swipeDirection={
+                        Array [
+                          "down",
+                        ]
+                      }
+                      swipeThreshold={100}
+                      transparent={true}
+                      visible={false}
+                    >
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        forwardedRef={[Function]}
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "backgroundColor": "black",
+                            "bottom": 0,
+                            "height": 1334,
+                            "left": 0,
+                            "opacity": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "width": 750,
+                          }
+                        }
+                      />
+                      <View
+                        deviceHeight={null}
+                        deviceWidth={null}
+                        forwardedRef={[Function]}
+                        hideModalContentWhileAnimating={false}
+                        onBackdropPress={[Function]}
+                        onModalHide={[Function]}
+                        onModalWillHide={[Function]}
+                        onModalWillShow={[Function]}
+                        onMoveShouldSetResponder={[Function]}
+                        onMoveShouldSetResponderCapture={[Function]}
+                        onResponderEnd={[Function]}
+                        onResponderReject={[Function]}
+                        onResponderStart={[Function]}
+                        onStartShouldSetResponderCapture={[Function]}
+                        onSwipeComplete={[Function]}
+                        panResponderThreshold={4}
+                        pointerEvents="box-none"
+                        scrollHorizontal={false}
+                        scrollOffset={0}
+                        scrollOffsetMax={0}
+                        scrollTo={null}
+                        style={
+                          Object {
+                            "flex": 1,
+                            "justifyContent": "flex-end",
+                            "left": 0,
+                            "margin": 0,
+                            "paddingHorizontal": 24,
+                            "paddingVertical": 24,
+                            "top": 0,
+                            "transform": Array [
+                              Object {
+                                "translateY": 0,
+                              },
+                            ],
+                          }
+                        }
+                        supportedOrientations={
+                          Array [
+                            "portrait",
+                            "landscape",
+                          ]
+                        }
+                        swipeDirection={
+                          Array [
+                            "down",
+                          ]
+                        }
+                        swipeThreshold={100}
+                      >
+                        <View
+                          style={
+                            Object {
+                              "borderRadius": 12,
+                              "marginBottom": 8,
+                              "overflow": "hidden",
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "[7m[38;2;230;230;230m#e6e6e6[39m[27m",
+                                "paddingVertical": 12,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Object {
+                                  "color": "[7m[38;2;138;138;142m#8a8a8e[39m[27m",
+                                  "fontFamily": "SFCompactText-Medium",
+                                  "fontSize": 12,
+                                  "paddingHorizontal": 8,
+                                }
+                              }
+                            >
+                              Select one of the following options
+                            </Text>
+                          </View>
+                          <View
+                            accessible={true}
+                            focusable={true}
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "[7m[38;2;230;230;230m#e6e6e6[39m[27m",
+                                "borderTopColor": "[7m[38;2;196;196;198m#c4c4c6[39m[27m",
+                                "borderTopWidth": 1,
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                                "zIndex": 4000,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "height": 28,
+                                  "width": 28,
+                                }
+                              }
+                            >
+                              <SvgMock />
+                            </View>
+                            <Text
+                              style={
+                                Object {
+                                  "color": "[7m[38;2;234;51;54m#ea3336[39m[27m",
+                                  "fontFamily": "SFCompactText-Regular",
+                                  "fontSize": 17,
+                                  "paddingLeft": 8,
+                                }
+                              }
+                            >
+                              Show contact information
+                            </Text>
+                          </View>
+                          <View
+                            accessible={true}
+                            focusable={true}
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "[7m[38;2;230;230;230m#e6e6e6[39m[27m",
+                                "borderTopColor": "[7m[38;2;196;196;198m#c4c4c6[39m[27m",
+                                "borderTopWidth": 1,
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                                "zIndex": 4000,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "height": 28,
+                                  "width": 28,
+                                }
+                              }
+                            >
+                              <SvgMock
+                                fill="#ea3336"
+                              />
+                            </View>
+                            <Text
+                              style={
+                                Object {
+                                  "color": "[7m[38;2;234;51;54m#ea3336[39m[27m",
+                                  "fontFamily": "SFCompactText-Regular",
+                                  "fontSize": 17,
+                                  "paddingLeft": 8,
+                                }
+                              }
+                            >
+                              Display billing information
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            Object {
+                              "borderRadius": 12,
+                              "overflow": "hidden",
+                            }
+                          }
+                        >
+                          <View
+                            accessibilityRole="button"
+                            accessibilityState={
+                              Object {
+                                "busy": false,
+                                "disabled": false,
+                              }
+                            }
+                            accessible={true}
+                            focusable={true}
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "backgroundColor": "[7m[38;2;255;255;255m#ffffff[39m[27m",
+                                  "borderColor": "[7m[38;2;234;51;54m#ea3336[39m[27m",
+                                  "borderRadius": 12,
+                                  "borderWidth": 0,
+                                  "flexDirection": "row",
+                                  "height": 56,
+                                  "justifyContent": "center",
+                                  "padding": 8,
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  Object {
+                                    "color": "[7m[38;2;255;255;255m#ffffff[39m[27m",
+                                    "fontFamily": "SFCompactText-Semibold",
+                                    "fontSize": 18,
+                                    "letterSpacing": 0.29,
+                                    "paddingBottom": 1,
+                                    "paddingTop": 2,
+                                    "textAlign": "center",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "[7m[38;2;138;138;142m#8a8a8e[39m[27m",
+                                      "fontFamily": "SFCompactText-Semibold",
+                                      "fontSize": 18,
+                                      "letterSpacing": 0.29,
+                                    }
+                                  }
+                                >
+                                  Cancel
+                                </Text>
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </Modal>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RNSScreen>
+    </RNSScreenContainer>
+  </View>
+</RNCSafeAreaProvider>
+`;

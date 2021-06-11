@@ -1,0 +1,39 @@
+image: node:14
+
+stages:
+  - install
+  - quality
+
+install:
+  stage: install
+  script:
+    - npm install
+  artifacts:
+    name: 'artifacts'
+    untracked: true
+    expire_in: 60 mins
+    paths:
+      - .npm/
+      - node_modules/
+
+linting:
+  stage: quality
+  script:
+    - npm run lint
+  dependencies:
+    - install
+
+type-linting:
+  stage: quality
+  script:
+    - npm run type-lint
+  dependencies:
+    - install
+
+test:unit:
+  stage: quality
+  script:
+    - npm run test
+  dependencies:
+    - install
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/

@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notifications component should match snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    forwardedRef={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onLayout={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "transparent",
+        "borderRadius": 14,
+        "elevation": 2,
+        "justifyContent": "center",
+        "position": "absolute",
+        "shadowColor": "[7m[38;2;0;0;0m#000[39m[27m",
+        "shadowOffset": Object {
+          "height": 5,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 4,
+        "top": 22,
+        "transform": Array [
+          Object {
+            "translateY": -9000,
+          },
+        ],
+        "width": "96.5%",
+        "zIndex": 2,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 6,
+          "marginTop": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+      >
+        <Blur
+          blurAmount={7}
+          blurType="light"
+          pointerEvents="none"
+          style={
+            Object {
+              "borderRadius": 6,
+              "height": "100%",
+              "position": "absolute",
+              "width": "100%",
+            }
+          }
+        />
+        <View
+          enabled={false}
+          minForce={0.2}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              hitSlop={
+                Object {
+                  "bottom": 12,
+                  "left": 12,
+                  "right": 12,
+                  "top": 12,
+                }
+              }
+              onClick={[Function]}
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "height": 100,
+                  "opacity": 1,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "justifyContent": "center",
+                    "marginHorizontal": 12,
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "testUri": "../../../src/assets/notificationIcon.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 30,
+                      "height": 40,
+                      "width": 40,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+                      "fontFamily": "SFCompactText-Bold",
+                      "fontSize": 18,
+                      "marginBottom": 12,
+                    }
+                  }
+                >
+                   
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+                      "fontFamily": "SFCompactText-Regular",
+                      "fontSize": 17,
+                    }
+                  }
+                >
+                   
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "[7m[38;2;0;0;0m#000[39m[27m",
+                  "borderRadius": 4,
+                  "height": 4,
+                  "marginVertical": 6,
+                  "opacity": 0.3,
+                  "width": 50,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

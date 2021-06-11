@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pressable component should match snapshot when 1 line 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={false}
+    hitSlop={
+      Object {
+        "bottom": 2,
+        "left": 2,
+        "right": 2,
+        "top": 2,
+      }
+    }
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+  />
+</RNCSafeAreaProvider>
+`;

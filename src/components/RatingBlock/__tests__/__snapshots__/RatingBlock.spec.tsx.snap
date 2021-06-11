@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingBlock component should match snapshot when 1 line 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexGrow": 1,
+        "marginBottom": 12,
+      }
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginVertical": 8,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontFamily": "SFCompactText-Semibold",
+                "fontSize": 18,
+                "letterSpacing": -0.36,
+              }
+            }
+          >
+            Shop rating
+          </Text>
+        </View>
+        <RNGestureHandlerButton
+          collapsable={false}
+          hitSlop={
+            Object {
+              "bottom": 12,
+              "left": 12,
+              "right": 12,
+              "top": 12,
+            }
+          }
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+        >
+          <View
+            accessible={true}
+            hitSlop={
+              Object {
+                "bottom": 12,
+                "left": 12,
+                "right": 12,
+                "top": 12,
+              }
+            }
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "[7m[38;2;234;51;54m#ea3336[39m[27m",
+                  "fontFamily": "SFCompactText-Semibold",
+                  "fontSize": 18,
+                }
+              }
+            >
+              Dismiss
+            </Text>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+            "fontSize": 17,
+            "lineHeight": 21,
+          }
+        }
+      >
+        Good morning,
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+            "fontSize": 17,
+            "lineHeight": 21,
+          }
+        }
+      >
+        If you have already closed a deal, please write a review. Your feedback will not only help improve our services, but will also serve others. Thank you in advance
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+            "fontSize": 17,
+            "lineHeight": 21,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "[7m[38;2;0;0;0m#000000[39m[27m",
+            "fontSize": 17,
+            "lineHeight": 21,
+          }
+        }
+      >
+        How satisfied were you with the deal?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 30,
+            "marginBottom": 24,
+            "marginTop": 8,
+          }
+        }
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          hitSlop={
+            Object {
+              "bottom": 12,
+              "left": 12,
+              "right": 12,
+              "top": 12,
+            }
+          }
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+        >
+          <View
+            accessible={true}
+            hitSlop={
+              Object {
+                "bottom": 12,
+                "left": 12,
+                "right": 12,
+                "top": 12,
+              }
+            }
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <SvgMock
+              fill="#ffffff"
+              style={
+                Object {
+                  "height": 30,
+                  "marginRight": 4,
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+        </RNGestureHandlerButton>
+        <RNGestureHandlerButton
+          collapsable={false}
+          hitSlop={
+            Object {
+              "bottom": 12,
+              "left": 12,
+              "right": 12,
+              "top": 12,
+            }
+          }
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+        >
+          <View
+            accessible={true}
+            hitSlop={
+              Object {
+                "bottom": 12,
+                "left": 12,
+                "right": 12,
+                "top": 12,
+              }
+            }
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <SvgMock
+              fill="#ffffff"
+              style={
+                Object {
+                  "height": 30,
+                  "marginRight": 4,
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+        </RNGestureHandlerButton>
+        <RNGestureHandlerButton
+          collapsable={false}
+          hitSlop={
+            Object {
+              "bottom": 12,
+              "left": 12,
+              "right": 12,
+              "top": 12,
+            }
+          }
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+        >
+          <View
+            accessible={true}
+            hitSlop={
+              Object {
+                "bottom": 12,
+                "left": 12,
+                "right": 12,
+                "top": 12,
+              }
+            }
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <SvgMock
+              fill="#ffffff"
+              style={
+                Object {
+                  "height": 30,
+                  "marginRight": 4,
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+        </RNGestureHandlerButton>
+        <RNGestureHandlerButton
+          collapsable={false}
+          hitSlop={
+            Object {
+              "bottom": 12,
+              "left": 12,
+              "right": 12,
+              "top": 12,
+            }
+          }
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+        >
+          <View
+            accessible={true}
+            hitSlop={
+              Object {
+                "bottom": 12,
+                "left": 12,
+                "right": 12,
+                "top": 12,
+              }
+            }
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <SvgMock
+              fill="#ffffff"
+              style={
+                Object {
+                  "height": 30,
+                  "marginRight": 4,
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+        </RNGestureHandlerButton>
+        <RNGestureHandlerButton
+          collapsable={false}
+          hitSlop={
+            Object {
+              "bottom": 12,
+              "left": 12,
+              "right": 12,
+              "top": 12,
+            }
+          }
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+        >
+          <View
+            accessible={true}
+            hitSlop={
+              Object {
+                "bottom": 12,
+                "left": 12,
+                "right": 12,
+                "top": 12,
+              }
+            }
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <SvgMock
+              fill="#ffffff"
+              style={
+                Object {
+                  "height": 30,
+                  "marginRight": 4,
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+
+
+
+
+      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.000638">
+
+      </testcase>
+
+
+      <testcase classname="fastlane.lanes" name="1: download_dsyms" time="115.553543">
+
+      </testcase>
+
+
+      <testcase classname="fastlane.lanes" name="2: upload_symbols_to_bugsnag" time="254.383465">
+
+      </testcase>
+
+
+      <testcase classname="fastlane.lanes" name="3: clean_build_artifacts" time="0.148816">
+
+      </testcase>
+
+  </testsuite>
+</testsuites>

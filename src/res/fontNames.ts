@@ -1,0 +1,19 @@
+//TODO - remove ROBOTO fonts from project
+export const SFCompactTextBlack = 'SFCompactText-Black';
+export const SFCompactTextBlackItalic = 'SFCompactText-BlackItalic';
+export const SFCompactTextBold = 'SFCompactText-Bold';
+export const SFCompactTextBoldItalic = 'SFCompactText-BoldItalic';
+export const SFCompactTextHeavy = 'SFCompactText-Heavy';
+export const SFCompactTextHeavyItalic = 'SFCompactText-HeavyItalic';
+export const SFCompactTextLight = 'SFCompactText-Light';
+export const SFCompactTextLightItalic = 'SFCompactText-LightItalic';
+export const SFCompactTextMedium = 'SFCompactText-Medium';
+export const SFCompactTextMediumItalic = 'SFCompactText-MediumItalic';
+export const SFCompactTextRegular = 'SFCompactText-Regular';
+export const SFCompactTextRegularItalic = 'SFCompactText-RegularItalic';
+export const SFCompactTextSemibold = 'SFCompactText-Semibold';
+export const SFCompactTextSemiboldItalic = 'SFCompactText-SemiboldItalic';
+export const SFCompactTextThin = 'SFCompactText-Thin';
+export const SFCompactTextThinItalic = 'SFCompactText-ThinItalic';
+export const SFCompactTextUltralight = 'SFCompactText-Ultralight';
+export const SFCompactTextUltralightItalic = 'SFCompactText-UltralightItalic';
